@@ -1,0 +1,33 @@
+# Direktori dan file yang tidak perlu dimasukkan ke dalam image Docker
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# Direktori atau file lokal untuk IDE atau editor
+.vscode/
+.idea/
+*.swp
+
+# File dan folder sistem
+.DS_Store
+Thumbs.db
+
+# File dan folder versi kontrol
+.git/
+.gitignore
+
+# Folder output lokal
+output/
+build/
+dist/
+
+# File atau folder yang digunakan untuk lingkungan virtual
+venv/
+.env/
+
+# File sensitif atau konfigurasi lokal
+*.env
+*.secret
